@@ -1,0 +1,19 @@
+{
+    "tdxlinuxsdk.distroversion": "5.2.0",
+    "tdxlinuxsdk.sdkversion": "5.2.0",
+    "tdxlinuxsdk.gccversion": "9.3.0",
+    "tdxlinuxsdk.targettriplet": "aarch64-tdx-linux",
+    "tdxlinuxsdk.targetarchtriplet": "aarch64-tdx-linux",
+    "tdxlinuxsdk.hosttriplet": "x86_64-tdxsdk-linux",
+    "tdxlinuxsdk.sdkroot": "/home/ben/Toradex/LinuxDevelop/LinuxSDK/v5/arm64",
+    "tdxlinuxsdk.sdktargetsysroot": "${config:tdxlinuxsdk.sdkroot}/sysroots/${config:tdxlinuxsdk.targettriplet}",
+
+
+    "files.associations": {
+        "cstdio": "c",
+        "stdio.h": "c",
+        "types.h": "c",
+        "libc-header-start.h": "c",
+        "wordsize.h": "c"
+    }
+}
